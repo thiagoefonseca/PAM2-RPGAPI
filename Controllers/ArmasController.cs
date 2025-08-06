@@ -39,6 +39,7 @@ namespace RpgApi.Controllers
         [HttpGet("GetAll")]
         public async Task<IActionResult> Get()
         {
+            // get all legal
             try
             {
                 //using System.Collections.Generic;
